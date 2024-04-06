@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply text-white bg-black;
+}
+header {
+    @apply ml-32 mt-3 flex flex-row relative w-5/6;
+}
+header .item-center {
+    @apply flex flex-row justify-center items-center m-auto;
+}
+header li{
+    @apply ml-2;
+}
+header .item-left {
+    @apply flex flex-row absolute left-0;
+}
+header .item-right {
+    @apply flex flex-row absolute right-0;
+}
+header .item-center ul {
+    @apply flex flex-row;
+}
+header .item-left ul {
+    @apply flex flex-row;
+}
+header .item-right ul {
+    @apply flex flex-row;
+}
+header .item-center .sub-items {
+    @apply border-2 border-gray-200 border-solid rounded-3xl p-2 border-opacity-25
+    mr-6;
+}
+header .item-center .sub-items li input {
+    @apply bg-black mr-64;
+}
+header .item-center .sub-items li i {
+    @apply opacity-25;
+}
+header .item-center .mic-class {
+    @apply  border-gray-200 p-2 rounded-full bg-gray-200 bg-opacity-25 border-opacity-25; 
+}
+header .item-left i {
+     @apply mr-3 text-2xl text-red-500;
+}
+header .item-left h1 {
+    @apply mr-3 text-2xl;
+}
+header .item-right i {
+    @apply mr-10 mt-2;
+}
+header .item-right li {
+    @apply border-2 border-dashed p-1 pr-4 pl-4 rounded-full bg-green-600 border-green-600
+    text-xl;
+}
+nav {
+    @apply w-1/12 absolute top-4 text-xs text-center;
+}
+nav ul {
+    @apply mb-8 mt-8;
+}
+nav i {
+    @apply text-3xl;
+}
+
+.navbar {
+    @apply w-5/6 m-auto pt-6;
+}
+.navbar .scroll-nav {
+    @apply flex flex-row text-center justify-center;
+}
+.navbar .scroll-nav li {
+    @apply mr-5 text-sm p-1 pl-2 rounded-xl bg-gray-200 bg-opacity-25;
+}
