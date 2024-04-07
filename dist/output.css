@@ -716,3 +716,11 @@ nav i {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+
+i:hover {
+  cursor: pointer;
+}
+
+li:hover {
+  cursor: pointer;
+}

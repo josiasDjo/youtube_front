@@ -74,3 +74,9 @@ nav i {
 .navbar .scroll-nav li {
     @apply mr-5 text-sm p-1 pl-2 rounded-xl bg-gray-200 bg-opacity-25;
 }
+i:hover {
+    @apply cursor-pointer;
+}
+li:hover {
+    @apply cursor-pointer;
+}
